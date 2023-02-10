@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title id="title" >Login</title>
+</head>
+<body>
+    <div id="home">
+        <h2 id="hello"></h2>
+    </div>
+  
+    <div id="register">
+        <h1>Register</h1>
+        <form >
+            <div>
+                <input type="text"  id="fname" placeholder="First Name">
+            </div>
+            <div>
+                <input type="text" id="lname" placeholder="Last Name">
+            </div>
+            <div>
+                <input type="date"  id="dob" required>
+            </div>
+            <div class="gender">
+                    <div>
+                        <label for="ma">Male</label>
+                        <input type="radio" id="ma" name="gender" value="male" required>
+                    </div>
+                    <div>
+                        <label for="fem">Female</label> 
+                        <input type="radio" id="fem" name="gender"  value="female" required>
+                    </div>
+                </div>
+            <div>
+                <input type="email"  id="email" placeholder="Email">
+            </div>
+            <div>
+                <input type="text" id="phone"  placeholder="+963 999 *** ***">
+            </div>
+            <div>
+                <span id="hide1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACB0lEQVR4nO2Yy0ocURCGvwhxqws1mEUMmFdQZid4ycVH0LUYDcHbQkZfwIUKutZ9LpooUd9B4zK+Qxyve9GRgmpomh451dPtiNQHBUN3ddVf03Wq+zQ4juM4juM4edAEvAOGgSlgEVhSW9Rjn9RHfJ8Er4AvwC5wCVQD7QLY0Ws7GiF8CNgHbgyia9kNsAcMPoZwSXKcg+hadgT0FyH8NfDDIETa6SewAqzq7yvD9d+BzrzEy8KrBCY+BcaAlylx5Ni4MdaHesXL9LgLTPgPeBMQs0t9Q2JK7nIW4TLm1g23/DRFfAmYUSulFBF6J6qqJXj0iuOmcfFJ20S0AgcpPjK1WmJ+n405NkOKEIcNY+DLRM+niY9MxmVEM3BtzLXxUBFZxFd1wkSUAvx7Y/7bGfLVLGI0QzCx5ViMuQD/2Zj/SsacI40sYKaoApoyttBWHS30K88WylrEVWIR7z/g+6fIRVzPGJUnbESLTps08fExOlHEGI0XsWYIXtGHU5xe7fdpoCdx7i1wZoi/lnUPUTa+SiSLSEPEnwTGvAXmqZOP+qoQkvBMn7DS30matW1C//n/wHtyotP4On2tD6lVtW3jgv2mu73ckc3GX+Pis9gh0McjMFDAlrKfBtAOTOoG/dwgWnx/65po44l9VpFF/xVYiH1WKesxOdcNvGi0WMdxHMdxHJ4B90ywRlLpXbhVAAAAAElFTkSuQmCC"></span>
+                <input type="password" id="pass1"  placeholder="Password">
+               
+            </div>
+            <div>
+                <span id="hide2" onclick=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACB0lEQVR4nO2Yy0ocURCGvwhxqws1mEUMmFdQZid4ycVH0LUYDcHbQkZfwIUKutZ9LpooUd9B4zK+Qxyve9GRgmpomh451dPtiNQHBUN3ddVf03Wq+zQ4juM4juM4edAEvAOGgSlgEVhSW9Rjn9RHfJ8Er4AvwC5wCVQD7QLY0Ws7GiF8CNgHbgyia9kNsAcMPoZwSXKcg+hadgT0FyH8NfDDIETa6SewAqzq7yvD9d+BzrzEy8KrBCY+BcaAlylx5Ni4MdaHesXL9LgLTPgPeBMQs0t9Q2JK7nIW4TLm1g23/DRFfAmYUSulFBF6J6qqJXj0iuOmcfFJ20S0AgcpPjK1WmJ+n405NkOKEIcNY+DLRM+niY9MxmVEM3BtzLXxUBFZxFd1wkSUAvx7Y/7bGfLVLGI0QzCx5ViMuQD/2Zj/SsacI40sYKaoApoyttBWHS30K88WylrEVWIR7z/g+6fIRVzPGJUnbESLTps08fExOlHEGI0XsWYIXtGHU5xe7fdpoCdx7i1wZoi/lnUPUTa+SiSLSEPEnwTGvAXmqZOP+qoQkvBMn7DS30matW1C//n/wHtyotP4On2tD6lVtW3jgv2mu73ckc3GX+Pis9gh0McjMFDAlrKfBtAOTOoG/dwgWnx/65po44l9VpFF/xVYiH1WKesxOdcNvGi0WMdxHMdxHJ4B90ywRlLpXbhVAAAAAElFTkSuQmCC"></span>
+                <input type="password" id="pass2"  placeholder="Confirm Password">
+            </div>
+            <div class="link">
+                <button type="submit" class="btn">Register</button>
+                <h5> Already Have An Account?</h5><button type="button" class="btn_move" onclick="show_log()">login</button>
+
+            </div>
+          
+         
+        </form>
+
+    </div>
+
+    <div id="log">
+        <h1>Login</h1>
+        <form >
+            <div>
+                <input type="email"  id="email_log" required  placeholder="Email"> 
+                <div id="email_error" class="val_error"></div>
+            </div>
+            <div>
+                 <span id="hide3"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACB0lEQVR4nO2Yy0ocURCGvwhxqws1mEUMmFdQZid4ycVH0LUYDcHbQkZfwIUKutZ9LpooUd9B4zK+Qxyve9GRgmpomh451dPtiNQHBUN3ddVf03Wq+zQ4juM4juM4edAEvAOGgSlgEVhSW9Rjn9RHfJ8Er4AvwC5wCVQD7QLY0Ws7GiF8CNgHbgyia9kNsAcMPoZwSXKcg+hadgT0FyH8NfDDIETa6SewAqzq7yvD9d+BzrzEy8KrBCY+BcaAlylx5Ni4MdaHesXL9LgLTPgPeBMQs0t9Q2JK7nIW4TLm1g23/DRFfAmYUSulFBF6J6qqJXj0iuOmcfFJ20S0AgcpPjK1WmJ+n405NkOKEIcNY+DLRM+niY9MxmVEM3BtzLXxUBFZxFd1wkSUAvx7Y/7bGfLVLGI0QzCx5ViMuQD/2Zj/SsacI40sYKaoApoyttBWHS30K88WylrEVWIR7z/g+6fIRVzPGJUnbESLTps08fExOlHEGI0XsWYIXtGHU5xe7fdpoCdx7i1wZoi/lnUPUTa+SiSLSEPEnwTGvAXmqZOP+qoQkvBMn7DS30matW1C//n/wHtyotP4On2tD6lVtW3jgv2mu73ckc3GX+Pis9gh0McjMFDAlrKfBtAOTOoG/dwgWnx/65po44l9VpFF/xVYiH1WKesxOdcNvGi0WMdxHMdxHJ4B90ywRlLpXbhVAAAAAElFTkSuQmCC"></span>
+                <input type="password"  id="pass_log" required placeholder="Password">
+          
+            <div class="link">
+                <button type="submit" class="btn" id="btn" onclick="check(event)">login</button>
+                <h5> You Don't Have An Account?</h5><button type="button" class="btn_reg" onclick="show_reg()">register</button>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
